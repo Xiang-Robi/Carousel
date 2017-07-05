@@ -50,7 +50,7 @@
 	
 	// restart timer when mouse leave the container
 	function ctnMouseLeave() {
-		imgAutoSlideId = setInterval(imgAutoSlide, 1800);
+		imgAutoSlideId = setInterval(imgAutoSlide, 3000);
 	}
 
 	// HF2. btn + click + img slide
@@ -126,6 +126,6 @@
 	ctnEl.addEventListener('mouseenter', ctnMouseEnter);
 	ctnEl.addEventListener('mouseleave', ctnMouseLeave);
 
-	imgAutoSlideId = setInterval(imgAutoSlide, 1800);
+	imgAutoSlideId = setInterval(imgAutoSlide, 3000);
 };
 
