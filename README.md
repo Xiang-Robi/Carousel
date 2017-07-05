@@ -2,4 +2,4 @@
 * Native JavaScript
 * Bootstrap 4 CSS
 
-Demo:
+Demo: https://xiang-robi.github.io/Carousel/
