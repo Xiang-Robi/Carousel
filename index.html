@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap 4 CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Customized Style -->
+	<link rel="stylesheet" href="carousel.css">
+	<script src="carousel.js"></script>
+	<title>carousel</title>
+</head>
+<body>
+	<div class="container">
+		<!-- nav-pills -->
+		<div class="row" id="nav-pills-row">
+			<div class="col-sm-12">
+				<nav class="nav nav-pills justify-content-between">
+					<a href="#" class="nav-link active" id='link1'>Spring</a>
+					<a href="#" class="nav-link" id='link2'>Summer</a>
+					<a href="#" class="nav-link" id='link3'>Fall</a>
+					<a href="#" class="nav-link" id='link4'>Winter</a>
+				</nav>
+			</div>
+		</div>
+		
+		<!-- img -->
+		<div class="row" id="img-row">
+			<div class="col-sm-12" id='img-col'>
+				<img src="img/spring.jpg" alt="" class="img-fluid active" id="img1">
+				<img src="img/summer.jpg" alt="" class="img-fluid" id="img2">
+				<img src="img/fall.jpg" alt="" class="img-fluid" id="img3">
+				<img src="img/winter.jpeg" alt="" class="img-fluid" id="img4">
+				<!-- '<' and '>' -->
+				<!-- Capital C ⟹ custom -->
+				<input type="button" class='c-btn-left' value="&#8592">
+				<input type="button" class='c-btn-right' value="&#8594">
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

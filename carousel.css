@@ -1,0 +1,72 @@
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.container {
+	/*pos*/
+	top: 1rem;
+	/*size*/
+	width: 40rem;
+	/*bg*/
+	border: 1px solid #000;
+}
+.nav-pills a.nav-link {
+	border: 1px solid grey;
+}
+#nav-pills-row {
+	margin-top: 0.5rem;
+}
+img {
+	display: none;
+	margin: 0.5rem 0;
+}
+img.active {
+	display: block;
+}
+.c-btn-left, .c-btn-right {
+	/*pos*/
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	/*use opacity instead of dis:n/b for transition effect*/
+	opacity: 0;
+	transition: opacity 0.3s;
+	transition-timing-function: linear;
+
+	/*size*/
+	height: 3rem;
+	width: 3rem;
+	/*font*/
+	color:white;
+	font-size: 2rem;
+	/*bg*/
+	background: #000;
+	border: 0;
+}
+.c-btn-left.active, .c-btn-right.active {
+	opacity: 0.7;
+	outline:0;
+}
+.c-btn-left:hover, .c-btn-right:hover {
+	cursor: pointer;
+}
+.container:hover, .container:hover {
+	cursor: pointer;
+}
+.nav-pills a.nav-link:hover, .nav-pills a.nav-link:hover {
+	cursor: pointer;
+}
+.c-btn-left {
+	left:7%;
+}
+.c-btn-right {
+	right:7%;
+}
+
+
+
+
+
+
